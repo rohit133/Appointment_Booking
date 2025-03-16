@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-header {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 350px;
+}
+
+.dropdown-label {
+  padding: 20px 0px;
+  display: flex;
+  gap: 20px;
+}
+
+.radioBtnGrp {
+  display: flex;
+}
+
+.btn {
+  width: 200px;
+  margin: auto; /* Centers button */
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+}
